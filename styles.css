@@ -98,8 +98,11 @@ main {
 
 .hero-eyebrow {
   grid-column: 1 / -1;
+  justify-self: center;
+  width: 100%;
   margin-bottom: -18px;
   white-space: nowrap;
+  text-align: center;
   font-size: clamp(0.64rem, 0.86vw, 0.8rem);
   letter-spacing: 0.12em;
 }
@@ -274,6 +277,12 @@ h3 {
 
 .section-body p {
   margin-bottom: 18px;
+}
+
+.about .section-body p,
+#consulting .section-body p {
+  text-align: justify;
+  hyphens: auto;
 }
 
 .card-grid {
@@ -637,11 +646,8 @@ h3 {
 }
 
 @media (max-width: 920px) {
-  .section-body p,
-  .card p,
-  .screen-card p,
-  .timeline p,
-  .compact-list p {
+  .about .section-body p,
+  #consulting .section-body p {
     text-align: justify;
     hyphens: auto;
   }
