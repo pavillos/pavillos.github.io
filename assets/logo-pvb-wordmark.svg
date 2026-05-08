@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Pablo Villoslada-Blanco wordmark</title>
-  <desc id="desc">Horizontal logo and wordmark for Pablo Villoslada-Blanco</desc>
-  <rect x="32" y="48" width="224" height="224" fill="#ffffff" stroke="#111111" stroke-width="10"/>
-  <text x="144" y="180" text-anchor="middle" font-family="DM Sans, Arial, sans-serif" font-size="74" font-weight="700" letter-spacing="0" fill="#111111">PVB</text>
-  <text x="320" y="132" font-family="DM Sans, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="0" fill="#111111">Pablo Villoslada-Blanco</text>
-  <text x="320" y="194" font-family="DM Sans, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="3" fill="#1e3a5f">BIOINFORMATICS · BIOSTATISTICS · AI · CANCER RESEARCH</text>
-</svg>
