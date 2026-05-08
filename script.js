@@ -1,7 +1,7 @@
 const translations = {
   es: {
     navAbout: "Sobre mí",
-    navExpertise: "Especialidad",
+    navExpertise: "Áreas",
     navProduct: "Producto",
     navPublications: "Publicaciones",
     navOutreach: "Divulgación",
@@ -25,7 +25,7 @@ const translations = {
     aboutBody1: "Soy bioinformático y bioestadístico, doctor en Ciencias Biomédicas y Biotecnológicas. Mi trabajo conecta modelización estadística, Machine Learning, Deep Learning e IA con investigación biomédica para hacer que los datos de alta dimensionalidad sean más útiles, interpretables y reproducibles.",
     aboutBody2: "Trabajo en investigación en cáncer, biopsia líquida, clasificadores moleculares, microbioma, viroma y transcriptómica espacial. Mi foco es construir métodos basados en IA, software reproducible y productos de datos orientados al impacto clínico y traslacional.",
     aboutAffiliation: "Afiliación actual: Genetic & Molecular Epidemiology Group (GMEG) - Spanish National Cancer Research Center (CNIO) y Centro de Investigación Biomédica en Red Cáncer (CIBERONC).",
-    expertiseKicker: "Especialidad",
+    expertiseKicker: "Áreas",
     expertiseTitle: "Dónde puedo contribuir",
     expertise1Title: "IA y multiomics",
     expertise1Body: "Machine Learning, Deep Learning, IA y marcos estadísticos para integrar genómica, transcriptómica, microbioma, datos clínicos y variables derivadas de imagen.",
@@ -37,7 +37,7 @@ const translations = {
     expertise4Body: "R, Python, Linux, diseño de workflows, LLMs, coding agents, informes y pipelines que hacen el análisis científico transparente, mantenible y reutilizable.",
     productKicker: "Producto y software",
     productTitle: "Software de investigación y productos de datos traslacionales.",
-    productBody: "Un producto de clasificación molecular centrado en cáncer y construido alrededor del adenocarcinoma ductal pancreático, conectando sistemas de subtipado publicados mediante Machine Learning, software reproducible y una aplicación Shiny orientada al uso clínico.",
+    productBody: "Un producto de clasificación molecular centrado en cáncer y construido alrededor del adenocarcinoma ductal pancreático, que conecta sistemas de subtipado publicados mediante Machine Learning, software reproducible y una aplicación Shiny orientada al uso clínico.",
     publicationsKicker: "Publicaciones",
     publicationsTitle: "Perfiles de publicación, PubMed y CVN",
     publicationsBody: "Puedes consultar mi producción científica y perfiles académicos en Google Scholar, ORCID, ResearchGate, PubMed y mi CVN.",
@@ -74,7 +74,7 @@ const translations = {
     educationBody: "Doctorado en Ciencias Biomédicas y Biotecnológicas, con Cum Laude, Mención Internacional y Premio Extraordinario de Doctorado. Formación de máster en Bioinformática y Biología Computacional, Bioestadística, Inteligencia Artificial y Deep Learning, y Química y Biotecnología. Grado en Bioquímica.",
     consultingKicker: "Consultoría",
     consultingTitle: "Consultoría científica para proyectos biomédicos intensivos en datos.",
-    consultingBody: "Apoyo a equipos académicos y traslacionales que necesitan ayuda rigurosa, reproducible y orientada a publicación con datos biomédicos complejos. Cada colaboración se define de forma privada según objetivos, calendario y complejidad de los datos.",
+    consultingBody: "Apoyo a equipos académicos y traslacionales que necesitan ayuda rigurosa, reproducible y orientada a publicación con datos biomédicos complejos. Cada colaboración se define de forma privada según los objetivos, el calendario y la complejidad de los datos.",
     service1: "Análisis bioinformático y multiomics",
     service2: "Bioestadística, análisis de supervivencia y modelización bayesiana",
     service3: "Métodos de IA y Machine Learning para datos biomédicos",
@@ -136,6 +136,14 @@ function updateYearsSince() {
       now.getMonth() > start.getMonth() ||
       (now.getMonth() === start.getMonth() && now.getDate() >= start.getDate());
     if (!anniversaryPassed) years -= 1;
+
+    if (node.hasAttribute("data-exact-years")) {
+      const isExactAnniversary =
+        now.getMonth() === start.getMonth() && now.getDate() === start.getDate();
+      node.textContent = isExactAnniversary ? String(years) : `${years}+`;
+      return;
+    }
+
     node.textContent = formatBucketCount(years, node.dataset.bucketSize);
   });
 }
