@@ -1,34 +1,35 @@
 # Pablo Villoslada-Blanco, PhD
 
-Pablo Villoslada-Blanco is a bioinformatician and biostatistician based in Madrid, Spain. He is a Postdoctoral Research Assistant affiliated with the Spanish National Cancer Research Center (CNIO) and CIBERONC.
+Pablo Villoslada-Blanco is a bioinformatician and biostatistician based in Madrid, Spain. He is a Research Assistant at the Genetic & Molecular Epidemiology Group (GMEG), Spanish National Cancer Research Center (CNIO) and Centro de Investigación Biomédica en Red Cáncer (CIBERONC).
 
 ## Core positioning
 
-Bioinformatics & Biostatistics for AI-driven precision medicine. He helps biomedical teams transform complex omics, clinical and imaging data into interpretable models, reproducible analyses and translational insight.
+Bioinformatics & Biostatistics for Artificial Intelligence-driven precision medicine and cancer research. He helps biomedical teams transform complex omics, clinical and imaging data into interpretable models, reproducible analyses, clinically oriented code and translational data products.
 
 ## Primary areas of expertise
 
 - Bioinformatics and biostatistics
-- Artificial intelligence and machine learning for biomedical data
+- Artificial Intelligence, Machine Learning and Deep Learning for biomedical data
 - Multi-omics integration
 - Precision medicine
-- Pancreatic cancer research
+- Cancer research
 - Microbiome and virome analysis
 - Spatial transcriptomics
 - Survival analysis, Bayesian statistics and reproducible research
 
 ## Current affiliation
 
+- GMEG: Genetic & Molecular Epidemiology Group
 - CNIO: Spanish National Cancer Research Center
-- CIBERONC: Centro de Investigacion Biomedica en Red Cancer
+- CIBERONC: Centro de Investigación Biomédica en Red Cáncer
 
 ## Services and collaboration areas
 
 - Bioinformatics and multi-omics analysis
 - Biostatistics, survival analysis and Bayesian modelling
-- AI/ML methods for biomedical datasets
+- Artificial Intelligence, Machine Learning and Deep Learning methods for biomedical datasets
 - Microbiome, virome and spatial transcriptomics analysis
-- Reproducible reports, code and manuscript-ready outputs
+- Reproducible reports, code, manuscript-ready outputs and clinical-facing research software
 
 ## Canonical resources
 

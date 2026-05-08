@@ -2,58 +2,54 @@ const translations = {
   es: {
     navExpertise: "Especialidad",
     navProjects: "Proyectos",
-    navConsulting: "Consultoria",
+    navConsulting: "Consultoría",
     navContact: "Contacto",
-    heroEyebrow: "Bioinformatica y bioestadistica | IA y multiomica | Medicina de precision",
-    heroLead: "Ayudo a equipos biomedicos a transformar datos omicos, clinicos y de imagen en modelos interpretables, analisis reproducibles e insight traslacional.",
-    heroCurrent: "Investigador postdoctoral en CNIO/CIBERONC, trabajando en la interseccion entre cancer de pancreas, microbioma, transcriptomica espacial e IA biomedica.",
+    heroEyebrow: "Bioinformática y Bioestadística | Inteligencia Artificial y Multi-ómica | Medicina de Precisión | Investigación en Cáncer",
+    heroLead: "Ayudo a equipos biomédicos a transformar datos ómicos, clínicos y de imagen en modelos interpretables, análisis reproducibles e insight traslacional.",
+    heroCurrent: "Research Assistant en el Genetic & Molecular Epidemiology Group (GMEG), Spanish National Cancer Research Center (CNIO) y Centro de Investigación Biomédica en Red Cáncer (CIBERONC), trabajando en la intersección entre investigación en cáncer, microbioma, transcriptómica espacial e Inteligencia Artificial (IA) biomédica.",
     ctaContact: "Contactar por email",
     ctaCv: "Descargar CV",
     ctaLinkedin: "LinkedIn",
-    portraitCaption: "CNIO/CIBERONC · Madrid, Espana",
-    metricPapers: "articulos indexados en PubMed",
+    portraitCaption: "GMEG · CNIO/CIBERONC · Madrid, España",
+    metricPapers: "registros de autor en PubMed",
     metricHindex: "h-index en Google Scholar",
-    metricYears: "anos en investigacion biomedica",
-    metricPhd: "Cum Laude · Mencion Internacional",
-    aboutKicker: "Sobre mi",
-    aboutTitle: "Ciencia computacional para decisiones biomedicas.",
-    aboutBody1: "Soy bioinformatico y bioestadistico, doctor en Ciencias Biomedicas y Biotecnologicas. Mi trabajo conecta modelizacion estadistica, aprendizaje automatico e investigacion biomedica para hacer que los datos de alta dimensionalidad sean mas utiles, interpretables y reproducibles.",
-    aboutBody2: "En CNIO y CIBERONC trabajo en adenocarcinoma ductal pancreatico, biopsia liquida, clasificadores moleculares, microbioma, viroma y transcriptomica espacial. Tambien escribo de forma regular sobre IA, multiomica y crecimiento personal como parte de una practica profesional mas amplia: mantenerme riguroso, visible y util.",
+    metricYears: "años desde octubre de 2018",
+    metricPhd: "Cum Laude · Mención Internacional",
+    aboutKicker: "Sobre mí",
+    aboutTitle: "Ciencia computacional para decisiones biomédicas.",
+    aboutBody1: "Soy bioinformático y bioestadístico, doctor en Ciencias Biomédicas y Biotecnológicas. Mi trabajo conecta modelización estadística, Machine Learning, Deep Learning e Inteligencia Artificial (IA) con investigación biomédica para hacer que los datos de alta dimensionalidad sean más útiles, interpretables y reproducibles.",
+    aboutBody2: "En el Genetic & Molecular Epidemiology Group (GMEG), Spanish National Cancer Research Center (CNIO) y Centro de Investigación Biomédica en Red Cáncer (CIBERONC), trabajo en investigación en cáncer, biopsia líquida, clasificadores moleculares, microbioma, viroma y transcriptómica espacial. Me centro en métodos basados en Inteligencia Artificial, software reproducible y productos de datos orientados a impacto clínico y traslacional.",
     expertiseKicker: "Especialidad",
-    expertiseTitle: "Donde puedo contribuir",
-    expertise1Title: "IA y multiomica",
-    expertise1Body: "Machine learning, deep learning y marcos estadisticos para integrar genomica, transcriptomica, metilacion, microbioma, datos clinicos y variables derivadas de imagen.",
-    expertise2Title: "Investigacion en cancer",
-    expertise2Body: "Metodos computacionales para deteccion de cancer de pancreas, clasificacion molecular, biopsia liquida y oncologia traslacional.",
-    expertise3Title: "Bioestadistica",
-    expertise3Body: "Diseno de estudios, analisis de supervivencia, estadistica bayesiana, pensamiento causal, modelizacion, visualizacion e interpretacion orientada a publicacion.",
-    expertise4Title: "Analisis reproducible",
-    expertise4Body: "R, Python, Linux, diseno de workflows, informes y pipelines que hacen el analisis cientifico transparente, mantenible y reutilizable.",
+    expertiseTitle: "Dónde puedo contribuir",
+    expertise1Title: "Inteligencia Artificial y Multi-ómica",
+    expertise1Body: "Machine Learning, Deep Learning, Inteligencia Artificial y marcos estadísticos para integrar genómica, transcriptómica, metilación, microbioma, datos clínicos y variables derivadas de imagen.",
+    expertise2Title: "Investigación en cáncer",
+    expertise2Body: "Métodos computacionales para detección de cáncer, clasificación molecular, biopsia líquida y oncología traslacional, con aplicaciones actuales en adenocarcinoma ductal pancreático.",
+    expertise3Title: "Bioestadística",
+    expertise3Body: "Diseño de estudios, análisis de supervivencia, estadística bayesiana, pensamiento causal, modelización, visualización e interpretación orientada a publicación.",
+    expertise4Title: "Análisis reproducible",
+    expertise4Body: "R, Python, Linux, diseño de workflows, informes y pipelines que hacen el análisis científico transparente, mantenible y reutilizable.",
     projectsKicker: "Trabajo seleccionado",
-    projectsTitle: "Investigacion, software y productos de datos traslacionales.",
-    project1Body: "Un clasificador molecular de consenso para adenocarcinoma ductal pancreatico, conectando sistemas de subtipado publicados mediante machine learning y software reproducible.",
-    project2Title: "Analisis de microbioma y viroma",
-    project2Body: "Analisis bioinformatico de bacterioma y viroma intestinal y oral en infeccion por VIH, cancer de pancreas e investigacion endocrina pediatrica.",
-    project3Title: "Transcriptomica espacial y modelos multinivel",
-    project3Body: "Modelizacion de la interaccion molecular entre cancer de pancreas y diabetes mellitus a resolucion de transcriptomica espacial.",
+    projectsTitle: "Software de investigación y productos de datos traslacionales.",
+    project1Body: "Un clasificador molecular de consenso para adenocarcinoma ductal pancreático, conectando sistemas de subtipado publicados mediante Machine Learning, software reproducible y una aplicación Shiny orientada al uso clínico.",
     publicationsKicker: "Publicaciones",
-    publicationsTitle: "Produccion cientifica seleccionada",
-    publicationsBody: "Mi produccion cientifica incluye trabajos en Genome Medicine, Scientific Reports, Communications Biology, eLife, Frontiers in Medicine y otras revistas biomedicas, con contribuciones en cancer, microbioma, viroma, genetica de COVID-19 y biomedicina computacional.",
+    publicationsTitle: "Perfiles de publicación y CVN",
+    publicationsBody: "Puedes consultar mi producción científica y perfiles académicos en Google Scholar, ORCID, ResearchGate y mi CVN. Estas fuentes ofrecen la visión más actualizada de citas, registros indexados y producción académica formal.",
     cvnLink: "Descargar CVN",
-    consultingKicker: "Consultoria",
-    consultingTitle: "Consultoria cientifica para proyectos biomedicos intensivos en datos.",
-    consultingBody: "Apoyo a equipos academicos y traslacionales que necesitan ayuda rigurosa, reproducible y orientada a publicacion con datos biomedicos complejos. Cada colaboracion se define de forma privada segun objetivos, calendario y complejidad de los datos.",
-    service1: "Analisis bioinformatico y multiomico",
-    service2: "Bioestadistica, analisis de supervivencia y modelizacion bayesiana",
-    service3: "Metodos de IA/ML para datos biomedicos",
-    service4: "Microbioma, viroma y transcriptomica espacial",
-    service5: "Informes reproducibles, codigo y resultados listos para manuscrito",
+    consultingKicker: "Consultoría",
+    consultingTitle: "Consultoría científica para proyectos biomédicos intensivos en datos.",
+    consultingBody: "Apoyo a equipos académicos y traslacionales que necesitan ayuda rigurosa, reproducible y orientada a publicación con datos biomédicos complejos. Cada colaboración se define de forma privada según objetivos, calendario y complejidad de los datos.",
+    service1: "Análisis bioinformático y multi-ómico",
+    service2: "Bioestadística, análisis de supervivencia y modelización bayesiana",
+    service3: "Métodos de Inteligencia Artificial y Machine Learning para datos biomédicos",
+    service4: "Microbioma, viroma y transcriptómica espacial",
+    service5: "Informes reproducibles, código y resultados listos para manuscrito",
     writingKicker: "Escritura y novedades",
-    writingTitle: "Reflexiones semanales sobre ciencia, crecimiento e IA biomedica.",
-    writingBody: "Publico regularmente en LinkedIn: crecimiento personal los lunes y notas cientificas miercoles y viernes, sobre todo alrededor de IA, multiomica, medicina de precision, cancer y biologia computacional.",
+    writingTitle: "Escritura sobre ciencia, crecimiento e Inteligencia Artificial biomédica.",
+    writingBody: "Publico en LinkedIn sobre Inteligencia Artificial, multi-ómica, medicina de precisión, investigación en cáncer, biología computacional y crecimiento personal.",
     writingLink: "Seguir actualizaciones en LinkedIn",
     contactKicker: "Contacto",
-    contactTitle: "Abierto a colaboraciones, consultoria y conversaciones de I+D traslacional."
+    contactTitle: "Abierto a colaboraciones, consultoría y conversaciones de I+D traslacional."
   }
 };
 
@@ -62,6 +58,19 @@ const originalText = {};
 document.querySelectorAll("[data-i18n]").forEach((node) => {
   originalText[node.dataset.i18n] = node.textContent;
 });
+
+function updateYearsSince() {
+  document.querySelectorAll("[data-years-since]").forEach((node) => {
+    const start = new Date(`${node.dataset.yearsSince}T00:00:00`);
+    const now = new Date();
+    let years = now.getFullYear() - start.getFullYear();
+    const anniversaryPassed =
+      now.getMonth() > start.getMonth() ||
+      (now.getMonth() === start.getMonth() && now.getDate() >= start.getDate());
+    if (!anniversaryPassed) years -= 1;
+    node.textContent = `${years}+`;
+  });
+}
 
 function setLanguage(lang) {
   document.documentElement.lang = lang;
@@ -79,4 +88,5 @@ document.querySelectorAll(".lang-button").forEach((button) => {
   button.addEventListener("click", () => setLanguage(button.dataset.lang));
 });
 
+updateYearsSince();
 setLanguage(localStorage.getItem("preferred-language") || "en");

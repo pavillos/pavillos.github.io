@@ -1,9 +1,13 @@
 {
   "name": "Pablo Villoslada-Blanco",
   "honorificSuffix": "PhD",
-  "headline": "Bioinformatics & Biostatistics for AI-driven precision medicine",
-  "currentRole": "Postdoctoral Research Assistant",
-  "currentAffiliation": ["CNIO", "CIBERONC"],
+  "headline": "Bioinformatics & Biostatistics for Artificial Intelligence-driven precision medicine and cancer research",
+  "currentRole": "Research Assistant",
+  "currentAffiliation": [
+    "Genetic & Molecular Epidemiology Group (GMEG)",
+    "Spanish National Cancer Research Center (CNIO)",
+    "Centro de Investigación Biomédica en Red Cáncer (CIBERONC)"
+  ],
   "location": "Madrid, Spain",
   "email": "pablo.villoslada@gmail.com",
   "affiliationEmail": "pvilloslada@cnio.es",
@@ -18,23 +22,26 @@
   "expertise": [
     "Bioinformatics",
     "Biostatistics",
-    "Artificial intelligence for biomedical data",
+    "Artificial Intelligence for biomedical data",
+    "Machine Learning",
+    "Deep Learning",
     "Multi-omics integration",
     "Precision medicine",
     "Cancer research",
-    "Pancreatic ductal adenocarcinoma",
     "Microbiome and virome analysis",
     "Spatial transcriptomics",
     "Survival analysis",
     "Bayesian statistics",
-    "Reproducible research"
+    "Reproducible research",
+    "Clinically oriented data products"
   ],
   "services": [
     "Bioinformatics and multi-omics analysis",
     "Biostatistics, survival analysis and Bayesian modelling",
-    "AI and machine learning methods for biomedical datasets",
+    "Artificial Intelligence, Machine Learning and Deep Learning methods for biomedical datasets",
     "Microbiome, virome and spatial transcriptomics analysis",
-    "Reproducible reports, code and manuscript-ready outputs"
+    "Reproducible reports, code and manuscript-ready outputs",
+    "Clinical-facing research software and translational data products"
   ],
   "documents": {
     "cv": "https://pavillos.github.io/documents/pablo-villoslada-blanco-cv.pdf",
