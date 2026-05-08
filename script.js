@@ -101,6 +101,32 @@ function prepareExternalLinks() {
   });
 }
 
+function formatBucketCount(value, bucketSize = 5) {
+  const count = Number(value);
+  const size = Number(bucketSize);
+  if (!Number.isFinite(count) || !Number.isFinite(size) || size <= 0) return "";
+  const bucket = Math.floor(count / size) * size;
+  if (bucket === 0) return String(count);
+  return count === bucket ? String(bucket) : `${bucket}+`;
+}
+
+function updateManualCounts() {
+  document.querySelectorAll("[data-manual-count]").forEach((node) => {
+    node.textContent = formatBucketCount(node.dataset.manualCount, node.dataset.bucketSize);
+  });
+}
+
+async function updatePubMedCount() {
+  const node = document.querySelector("[data-pubmed-count]");
+  if (!node) return;
+  const term = "(Villoslada-Blanco) OR (SCOURGE Cohort Group[Corporate Author])";
+  const params = new URLSearchParams({ db: "pubmed", term, retmode: "json" });
+  const response = await fetch(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?${params}`);
+  if (!response.ok) throw new Error("PubMed count request failed");
+  const data = await response.json();
+  node.textContent = formatBucketCount(data.esearchresult.count, node.dataset.bucketSize);
+}
+
 function updateYearsSince() {
   document.querySelectorAll("[data-years-since]").forEach((node) => {
     const start = new Date(`${node.dataset.yearsSince}T00:00:00`);
@@ -110,7 +136,7 @@ function updateYearsSince() {
       now.getMonth() > start.getMonth() ||
       (now.getMonth() === start.getMonth() && now.getDate() >= start.getDate());
     if (!anniversaryPassed) years -= 1;
-    node.textContent = `${years}+`;
+    node.textContent = formatBucketCount(years, node.dataset.bucketSize);
   });
 }
 
@@ -131,5 +157,7 @@ document.querySelectorAll(".lang-button").forEach((button) => {
 });
 
 prepareExternalLinks();
+updateManualCounts();
 updateYearsSince();
+updatePubMedCount();
 setLanguage(localStorage.getItem("preferred-language") || "en");

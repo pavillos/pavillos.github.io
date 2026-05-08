@@ -99,7 +99,7 @@ main {
 .hero-eyebrow {
   grid-column: 1 / -1;
   justify-self: center;
-  width: 100%;
+  width: min(var(--max), calc(100vw - 48px));
   margin-bottom: -18px;
   white-space: nowrap;
   text-align: center;
@@ -219,16 +219,19 @@ h3 {
 
 .metrics {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  justify-items: center;
   max-width: var(--max);
   margin: 0 auto;
   padding: 0 24px 42px;
   border-bottom: 1px solid var(--line);
+  text-align: center;
 }
 
 .metrics div,
 .metrics .metric-link {
-  padding: 24px 24px 24px 0;
+  width: 100%;
+  padding: 24px 12px;
   border-top: 2px solid var(--accent);
 }
 
@@ -504,7 +507,8 @@ h3 {
 
   .metrics div,
   .metrics .metric-link {
-    padding-right: 0;
+    padding-right: 12px;
+    padding-left: 12px;
   }
 
   .project {
@@ -617,6 +621,7 @@ h3 {
 
 @media (max-width: 920px) {
   .hero-eyebrow {
+    width: calc(100vw - 48px);
     white-space: normal;
   }
 
@@ -635,6 +640,7 @@ h3 {
   }
 
   .hero-eyebrow {
+    width: calc(100vw - 36px);
     font-size: 0.68rem;
   }
 }
