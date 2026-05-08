@@ -6,20 +6,14 @@ Personal website for Pablo Villoslada-Blanco, PhD.
 
 Open `index.html` directly in a browser, or run a local static server if preferred.
 
-## Update CV files
+## Update public files
 
-Run:
+Replace files manually while keeping stable public filenames:
 
-```bash
-bash scripts/update-documents.sh
-```
-
-The script replaces the PDFs in `documents/` while keeping stable public filenames:
-
-- `pablo-villoslada-blanco-cv.pdf`
-- `pablo-villoslada-blanco-cvn-english.pdf`
-- `pablo-villoslada-blanco-cva-aei.pdf`
-- `pablo-villoslada-blanco-cva-isciii.pdf`
+- `photos/profile-clean.png` for the main portrait.
+- `documents/pablo-villoslada-blanco-cv.pdf` for the public CV.
+- `documents/pablo-villoslada-blanco-cvn-english.pdf` for the public CVN.
+- `documents/pablo-villoslada-blanco-cva-aei.pdf` and `documents/pablo-villoslada-blanco-cva-isciii.pdf` if those CVA files are used again.
 
 After committing and pushing to GitHub, the public links remain stable.
 
