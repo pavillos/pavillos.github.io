@@ -668,7 +668,7 @@ h3 {
 @media (max-width: 920px) {
   .about .section-body p,
   #consulting .section-body p {
-    text-align: justify;
-    hyphens: auto;
+    text-align: left;
+    hyphens: none;
   }
 }
