@@ -219,8 +219,10 @@ h3 {
 
 .metrics {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(150px, 190px));
+  justify-content: center;
   justify-items: center;
+  gap: clamp(18px, 5vw, 56px);
   max-width: var(--max);
   margin: 0 auto;
   padding: 0 24px 42px;
@@ -231,7 +233,7 @@ h3 {
 .metrics div,
 .metrics .metric-link {
   width: 100%;
-  padding: 24px 12px;
+  padding: 24px 8px;
   border-top: 2px solid var(--accent);
 }
 
@@ -505,6 +507,10 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .metrics {
+    max-width: 340px;
+  }
+
   .metrics div,
   .metrics .metric-link {
     padding-right: 12px;
@@ -626,7 +632,9 @@ h3 {
   }
 
   .metrics {
-    gap: 14px;
+    grid-template-columns: repeat(2, minmax(150px, 210px));
+    justify-content: center;
+    gap: 18px 28px;
   }
 
   .project-links {
