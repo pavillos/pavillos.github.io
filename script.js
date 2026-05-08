@@ -37,7 +37,7 @@ const translations = {
     expertise4Body: "R, Python, Linux, diseño de workflows, LLMs, coding agents, informes y pipelines que hacen el análisis científico transparente, mantenible y reutilizable.",
     productKicker: "Producto y software",
     productTitle: "Software de investigación y productos de datos traslacionales.",
-    productBody: "Un producto de clasificación molecular centrado en cáncer y construido alrededor del adenocarcinoma ductal pancreático, que conecta sistemas de subtipado publicados mediante Machine Learning, software reproducible y una aplicación Shiny orientada al uso clínico.",
+    productBody: "Un producto de clasificación molecular centrado en cáncer y construido alrededor del cáncer de páncreas, que conecta sistemas de subtipado publicados mediante Machine Learning, software reproducible y una aplicación Shiny orientada al uso clínico.",
     publicationsKicker: "Publicaciones",
     publicationsTitle: "Perfiles de publicación, PubMed y CVN",
     publicationsBody: "Puedes consultar mi producción científica y perfiles académicos en Google Scholar, ORCID, ResearchGate, PubMed y mi CVN.",
