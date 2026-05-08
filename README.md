@@ -1,36 +1,52 @@
-# pavillos.github.io
+# Pablo Villoslada-Blanco Personal Website
 
-Personal website for Pablo Villoslada-Blanco, PhD.
+This repository contains the source code for the personal website of **Pablo Villoslada-Blanco, PhD**.
 
-## Local preview
+The site presents my work at the intersection of **Bioinformatics**, **Biostatistics**, **Artificial Intelligence**, **multiomics**, **precision medicine**, and **cancer research**.
 
-Open `index.html` directly in a browser, or run a local static server if preferred.
+Website: [https://pavillos.github.io/](https://pavillos.github.io/)
 
-## Update public files
+## Overview
 
-Replace files manually while keeping stable public filenames:
+The website is designed as a professional profile, online CV, research portfolio, and contact point for scientific collaborations, consulting conversations, and translational biomedical data projects.
 
-- `photos/profile-clean.png` for the main portrait.
-- `documents/pablo-villoslada-blanco-cv.pdf` for the public CV.
-- `documents/pablo-villoslada-blanco-cvn-english.pdf` for the public CVN.
-- `documents/pablo-villoslada-blanco-cva-aei.pdf` and `documents/pablo-villoslada-blanco-cva-isciii.pdf` if those CVA files are used again.
+It includes:
 
-After committing and pushing to GitHub, the public links remain stable.
+- professional profile and current affiliation;
+- research and technical expertise;
+- selected research software and data products;
+- publication and academic profile links;
+- scientific outreach and professional writing;
+- awards, memberships, and background;
+- public CV and CVN downloads.
 
-## SEO and LLM discovery
+## Technical Notes
 
-The site includes:
+This is a lightweight static website built with plain HTML, CSS, and JavaScript.
 
-- HTML metadata and canonical URL
-- Open Graph and Twitter card metadata
-- `schema.org` Person and ProfilePage structured data
-- `profile.json` machine-readable profile
-- `robots.txt`
-- `sitemap.xml`
-- `llms.txt`
-- `humans.txt`
-- Web manifest
+Main public-facing files:
+
+- `index.html` - main website structure and metadata.
+- `styles.css` - visual design and responsive layout.
+- `script.js` - language toggle and dynamic public metrics.
+- `profile.json` - machine-readable profile metadata.
+- `llms.txt` - concise profile summary for LLM discovery.
+- `brief/` - placeholder for the future PVB Intelligence Brief.
+
+## Discovery
+
+The site includes structured metadata and discovery files for search engines, social previews, and machine-readable profile indexing:
+
+- canonical metadata;
+- Open Graph and Twitter card metadata;
+- `schema.org` Person and ProfilePage data;
+- `robots.txt` and `sitemap.xml`;
+- `profile.json`;
+- `llms.txt`;
+- `humans.txt`.
 
 ## Deployment
 
-This is a static website. The included GitHub Actions workflow publishes the repository root to GitHub Pages when changes are pushed to `main`.
+The site is published through GitHub Pages.
+
+Changes pushed to the repository are deployed automatically through the GitHub Actions workflow in `.github/workflows/pages.yml`.
