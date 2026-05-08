@@ -1,0 +1,44 @@
+# Pablo Villoslada-Blanco, PhD
+
+Pablo Villoslada-Blanco is a bioinformatician and biostatistician based in Madrid, Spain. He is a Postdoctoral Research Assistant affiliated with the Spanish National Cancer Research Center (CNIO) and CIBERONC.
+
+## Core positioning
+
+Bioinformatics & Biostatistics for AI-driven precision medicine. He helps biomedical teams transform complex omics, clinical and imaging data into interpretable models, reproducible analyses and translational insight.
+
+## Primary areas of expertise
+
+- Bioinformatics and biostatistics
+- Artificial intelligence and machine learning for biomedical data
+- Multi-omics integration
+- Precision medicine
+- Pancreatic cancer research
+- Microbiome and virome analysis
+- Spatial transcriptomics
+- Survival analysis, Bayesian statistics and reproducible research
+
+## Current affiliation
+
+- CNIO: Spanish National Cancer Research Center
+- CIBERONC: Centro de Investigacion Biomedica en Red Cancer
+
+## Services and collaboration areas
+
+- Bioinformatics and multi-omics analysis
+- Biostatistics, survival analysis and Bayesian modelling
+- AI/ML methods for biomedical datasets
+- Microbiome, virome and spatial transcriptomics analysis
+- Reproducible reports, code and manuscript-ready outputs
+
+## Canonical resources
+
+- Website: https://pavillos.github.io/
+- Machine-readable profile: https://pavillos.github.io/profile.json
+- LinkedIn: https://www.linkedin.com/in/pablo-villoslada-blanco/
+- GitHub: https://github.com/pavillos
+- ORCID: https://orcid.org/0000-0002-1220-5228
+- Google Scholar: https://scholar.google.es/citations?user=9kkW0eoAAAAJ&hl=en
+- ResearchGate: https://www.researchgate.net/profile/Pablo-Villoslada-Blanco
+
+Preferred contact: pablo.villoslada@gmail.com
+Current affiliation email: pvilloslada@cnio.es

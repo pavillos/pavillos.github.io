@@ -1,0 +1,45 @@
+{
+  "name": "Pablo Villoslada-Blanco",
+  "honorificSuffix": "PhD",
+  "headline": "Bioinformatics & Biostatistics for AI-driven precision medicine",
+  "currentRole": "Postdoctoral Research Assistant",
+  "currentAffiliation": ["CNIO", "CIBERONC"],
+  "location": "Madrid, Spain",
+  "email": "pablo.villoslada@gmail.com",
+  "affiliationEmail": "pvilloslada@cnio.es",
+  "website": "https://pavillos.github.io/",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/pablo-villoslada-blanco/",
+    "github": "https://github.com/pavillos",
+    "orcid": "https://orcid.org/0000-0002-1220-5228",
+    "googleScholar": "https://scholar.google.es/citations?user=9kkW0eoAAAAJ&hl=en",
+    "researchGate": "https://www.researchgate.net/profile/Pablo-Villoslada-Blanco"
+  },
+  "expertise": [
+    "Bioinformatics",
+    "Biostatistics",
+    "Artificial intelligence for biomedical data",
+    "Multi-omics integration",
+    "Precision medicine",
+    "Cancer research",
+    "Pancreatic ductal adenocarcinoma",
+    "Microbiome and virome analysis",
+    "Spatial transcriptomics",
+    "Survival analysis",
+    "Bayesian statistics",
+    "Reproducible research"
+  ],
+  "services": [
+    "Bioinformatics and multi-omics analysis",
+    "Biostatistics, survival analysis and Bayesian modelling",
+    "AI and machine learning methods for biomedical datasets",
+    "Microbiome, virome and spatial transcriptomics analysis",
+    "Reproducible reports, code and manuscript-ready outputs"
+  ],
+  "documents": {
+    "cv": "https://pavillos.github.io/documents/pablo-villoslada-blanco-cv.pdf",
+    "cvnEnglish": "https://pavillos.github.io/documents/pablo-villoslada-blanco-cvn-english.pdf",
+    "cvaAei": "https://pavillos.github.io/documents/pablo-villoslada-blanco-cva-aei.pdf",
+    "cvaIsciii": "https://pavillos.github.io/documents/pablo-villoslada-blanco-cva-isciii.pdf"
+  }
+}

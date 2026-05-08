@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pavillos.github.io/sitemap.xml
+Host: https://pavillos.github.io
