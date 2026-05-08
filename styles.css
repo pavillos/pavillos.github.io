@@ -200,6 +200,45 @@ h3 {
   color: #ffffff;
 }
 
+.button.subtle {
+  border-color: var(--line);
+  color: var(--accent);
+}
+
+.brief-page main {
+  overflow: visible;
+}
+
+.brief-hero {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: clamp(82px, 12vw, 150px) 24px;
+}
+
+.brief-hero h1 {
+  max-width: 820px;
+  font-size: clamp(3.2rem, 8vw, 7rem);
+}
+
+.brief-note {
+  display: grid;
+  gap: 16px;
+  margin: 36px 0 0;
+  padding: 24px 0;
+  border-top: 2px solid var(--accent);
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.brief-note p {
+  margin: 0;
+}
+
+.brief-note strong {
+  color: var(--ink);
+}
+
 .portrait-block {
   margin: 0;
 }

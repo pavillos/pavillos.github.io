@@ -15,6 +15,7 @@ const translations = {
     ctaContact: "Contactar por email",
     ctaCv: "Descargar CV",
     ctaLinkedin: "LinkedIn",
+    ctaBrief: "PVB Intelligence Brief",
     portraitCaption: "GMEG · CNIO/CIBERONC · Madrid, España",
     metricPapers: "registros en PubMed",
     metricCongresses: "contribuciones a congresos",
