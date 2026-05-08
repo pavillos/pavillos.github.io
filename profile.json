@@ -1,8 +1,8 @@
 {
   "name": "Pablo Villoslada-Blanco",
   "honorificSuffix": "PhD",
-  "headline": "Bioinformatics & Biostatistics for Artificial Intelligence-driven precision medicine and cancer research",
-  "currentRole": "Research Assistant",
+  "headline": "Bioinformatics & Biostatistics for AI-driven precision medicine and cancer research",
+  "currentRole": "Postdoctoral Research Assistant",
   "currentAffiliation": [
     "Genetic & Molecular Epidemiology Group (GMEG)",
     "Spanish National Cancer Research Center (CNIO)",
@@ -22,10 +22,10 @@
   "expertise": [
     "Bioinformatics",
     "Biostatistics",
-    "Artificial Intelligence for biomedical data",
+    "AI for biomedical data",
     "Machine Learning",
     "Deep Learning",
-    "Multi-omics integration",
+    "multiomics integration",
     "Precision medicine",
     "Cancer research",
     "Microbiome and virome analysis",
@@ -36,9 +36,9 @@
     "Clinically oriented data products"
   ],
   "services": [
-    "Bioinformatics and multi-omics analysis",
+    "Bioinformatics and multiomics analysis",
     "Biostatistics, survival analysis and Bayesian modelling",
-    "Artificial Intelligence, Machine Learning and Deep Learning methods for biomedical datasets",
+    "AI, Machine Learning and Deep Learning methods for biomedical datasets",
     "Microbiome, virome and spatial transcriptomics analysis",
     "Reproducible reports, code and manuscript-ready outputs",
     "Clinical-facing research software and translational data products"

@@ -1,16 +1,16 @@
 {
   "name": "Pablo Villoslada-Blanco",
   "short_name": "PVB",
-  "description": "Bioinformatics & Biostatistics for Artificial Intelligence-driven precision medicine and cancer research.",
+  "description": "Bioinformatics & Biostatistics for AI-driven precision medicine and cancer research.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1e3a5f",
   "icons": [
     {
-      "src": "/photos/profile-clean.png",
-      "sizes": "512x512",
-      "type": "image/png",
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
       "purpose": "any"
     }
   ]

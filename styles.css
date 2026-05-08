@@ -52,7 +52,6 @@ a {
   width: 42px;
   height: 42px;
   place-items: center;
-  border: 1px solid var(--ink);
   font-weight: 700;
   letter-spacing: 0;
 }
@@ -95,6 +94,14 @@ a {
 
 main {
   overflow: hidden;
+}
+
+.hero-eyebrow {
+  grid-column: 1 / -1;
+  margin-bottom: -18px;
+  white-space: nowrap;
+  font-size: clamp(0.64rem, 0.86vw, 0.8rem);
+  letter-spacing: 0.12em;
 }
 
 .hero {
@@ -238,6 +245,13 @@ h3 {
 
 .metrics span {
   color: var(--muted);
+}
+
+.metrics span,
+.link-row a,
+.project-links a,
+.contact-links a {
+  overflow-wrap: anywhere;
 }
 
 .section {
@@ -495,5 +509,140 @@ h3 {
 
   .site-footer {
     flex-direction: column;
+  }
+}
+
+.brand img {
+  display: block;
+  width: 42px;
+  height: 42px;
+}
+
+.nav {
+  gap: 14px;
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+
+.portrait-block figcaption {
+  text-align: center;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  justify-content: flex-end;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.definition-note {
+  color: var(--muted);
+  border-left: 3px solid var(--accent);
+  padding-left: 16px;
+}
+
+.screen-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 28px 0 20px;
+}
+
+.screen-card {
+  min-height: 190px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--accent);
+  background: #ffffff;
+}
+
+.screen-card span,
+.timeline span {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.screen-card p,
+.timeline p,
+.compact-list p {
+  color: var(--muted);
+}
+
+.compact-list {
+  display: grid;
+  gap: 16px;
+}
+
+.compact-list p {
+  margin: 0;
+}
+
+.compact-list strong {
+  color: var(--ink);
+}
+
+.timeline {
+  display: grid;
+  gap: 24px;
+}
+
+.timeline article {
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 1120px) {
+  .nav {
+    gap: 10px;
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .hero-eyebrow {
+    white-space: normal;
+  }
+
+  .metrics {
+    gap: 14px;
+  }
+
+  .project-links {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 560px) {
+  .screen-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-eyebrow {
+    font-size: 0.68rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .nav {
+    display: none;
+  }
+}
+
+@media (max-width: 920px) {
+  .section-body p,
+  .card p,
+  .screen-card p,
+  .timeline p,
+  .compact-list p {
+    text-align: justify;
+    hyphens: auto;
   }
 }
