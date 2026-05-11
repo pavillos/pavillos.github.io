@@ -29,7 +29,7 @@ Main files:
 - `profile.json`: machine-readable profile for discovery.
 - `llms.txt`: LLM discovery summary.
 - `site.webmanifest`: web app metadata and icon.
-- `brief/index.html`: placeholder page for PVB Intelligence Brief.
+- `brief/index.html`: branded redirect to the deployed PVB Intelligence Brief.
 - `assets/logo-pvb.svg`: main logo used in the header.
 - `assets/favicon.svg`: favicon.
 - `photos/profile-clean.png`: main portrait used by the website.
@@ -199,7 +199,7 @@ Do not justify paragraphs on tablet or mobile. Justification creates uneven word
 
 ## PVB Intelligence Brief
 
-`brief/index.html` is a placeholder for a future product/workflow called:
+`brief/index.html` is a branded redirect to the deployed product/workflow:
 
 ```text
 PVB Intelligence Brief
@@ -207,14 +207,12 @@ PVB Intelligence Brief
 
 Current state:
 
-- English only.
-- `noindex,follow` while it is only a placeholder.
-- Header should show logo and only `Home` at the top right.
-- Page content should only show `Coming soon`, centered in the viewport.
+- The personal website keeps `/brief/` as a stable branded entry point.
+- `/brief/` redirects to `https://pvb-intelligence-brief.vercel.app/brief`.
+- Keep the home page button under the portrait pointing to `brief/` unless the product URL strategy changes.
+- Keep this section described as deployed rather than planned.
 
-Do not add Outreach, Contact, bilingual content, or long explanations to this page until the system is ready.
-
-Future intended concept: a private AI-assisted research intelligence workflow for daily news curation and weekly public digests.
+Concept: an AI-assisted research intelligence workflow for daily news curation and weekly public digests.
 
 ## SEO and LLM Discovery
 

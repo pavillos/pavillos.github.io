@@ -46,6 +46,7 @@ Bioinformatics & Biostatistics for AI-driven precision medicine and cancer resea
 - ORCID: https://orcid.org/0000-0002-1220-5228
 - Google Scholar: https://scholar.google.es/citations?user=9kkW0eoAAAAJ&hl=en
 - ResearchGate: https://www.researchgate.net/profile/Pablo-Villoslada-Blanco
+- PVB Intelligence Brief: https://pvilloslada.com/brief/
 
 Preferred contact: pablo.villoslada@gmail.com
 Current affiliation email: pvilloslada@cnio.es

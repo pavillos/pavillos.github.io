@@ -31,7 +31,7 @@ Main public-facing files:
 - `script.js` - language toggle and dynamic public metrics.
 - `profile.json` - machine-readable profile metadata.
 - `llms.txt` - concise profile summary for LLM discovery.
-- `brief/` - placeholder for the future PVB Intelligence Brief.
+- `brief/` - branded redirect to the deployed PVB Intelligence Brief.
 
 ## Discovery
 
