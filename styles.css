@@ -450,6 +450,25 @@ h3 {
   }
 }
 
+
+@media (max-width: 1100px) and (orientation: portrait) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .portrait-block {
+    max-width: 460px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .portrait-block img {
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+}
+
 @media (max-width: 920px) {
   .site-header {
     align-items: center;
