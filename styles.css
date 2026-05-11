@@ -478,6 +478,8 @@ h3 {
 
   .portrait-block {
     max-width: 460px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .portrait-block img {
@@ -549,6 +551,8 @@ h3 {
 
   .portrait-block {
     max-width: min(100%, 360px);
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .portrait-block img {
