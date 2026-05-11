@@ -4,7 +4,7 @@ This repository contains the source code for the personal website of **Pablo Vil
 
 The site presents my work at the intersection of **Bioinformatics**, **Biostatistics**, **Artificial Intelligence**, **multiomics**, **precision medicine**, and **cancer research**.
 
-Website: [https://pavillos.github.io/](https://pavillos.github.io/)
+Website: [https://pvilloslada.com/](https://pvilloslada.com/)
 
 ## Overview
 

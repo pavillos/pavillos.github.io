@@ -1,6 +1,6 @@
 # Project Agent Instructions
 
-This repository contains the personal website for Pablo Villoslada-Blanco, PhD, published with GitHub Pages at https://pavillos.github.io/.
+This repository contains the personal website for Pablo Villoslada-Blanco, PhD, published with GitHub Pages at https://pvilloslada.com/.
 
 Use these instructions for Codex, Claude, or any other coding agent working on this project.
 

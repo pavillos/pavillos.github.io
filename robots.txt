@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pavillos.github.io/sitemap.xml
-Host: https://pavillos.github.io
+Sitemap: https://pvilloslada.com/sitemap.xml
+Host: https://pvilloslada.com

@@ -39,8 +39,8 @@ Bioinformatics & Biostatistics for AI-driven precision medicine and cancer resea
 
 ## Canonical resources
 
-- Website: https://pavillos.github.io/
-- Machine-readable profile: https://pavillos.github.io/profile.json
+- Website: https://pvilloslada.com/
+- Machine-readable profile: https://pvilloslada.com/profile.json
 - LinkedIn: https://www.linkedin.com/in/pablo-villoslada-blanco/
 - GitHub: https://github.com/pavillos
 - ORCID: https://orcid.org/0000-0002-1220-5228
