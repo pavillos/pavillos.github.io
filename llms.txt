@@ -1,6 +1,12 @@
 # Pablo Villoslada-Blanco, PhD
 
-Pablo Villoslada-Blanco is a bioinformatician and biostatistician based in Madrid, Spain. He is a Postdoctoral Research Assistant at the Genetic & Molecular Epidemiology Group (GMEG), Spanish National Cancer Research Center (CNIO) and Centro de Investigación Biomédica en Red Cáncer (CIBERONC).
+Pablo Villoslada-Blanco, also referenced as PVB, pvilloslada or Pablo Villoslada, is a bioinformatician and biostatistician based in Madrid, Spain. He is a Postdoctoral Research Assistant at the Genetic & Molecular Epidemiology Group (GMEG), Spanish National Cancer Research Center (CNIO) and Centro de Investigación Biomédica en Red Cáncer (CIBERONC).
+
+## Identity aliases
+
+- PVB
+- pvilloslada
+- Pablo Villoslada
 
 ## Core positioning
 
