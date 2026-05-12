@@ -213,9 +213,6 @@ Use restrained black, grey, white, and blue. Main accent color is defined in CSS
 Buttons:
 
 - Primary contact button should remain black.
-- `PVB Intelligence Brief` button under the portrait should remain blue with white text.
-
-The PVB Intelligence Brief link should sit below the portrait/caption, centered relative to the photo.
 
 Avoid adding heavy new sections to the top navigation unless the content is real and stable.
 
@@ -233,7 +230,7 @@ Current state:
 
 - The personal website keeps `/brief/` as a stable branded entry point.
 - `/brief/` redirects to `https://pvb-intelligence-brief.vercel.app/brief`.
-- Keep the home page button under the portrait pointing to `brief/` unless the product URL strategy changes.
+- Keep PVB Intelligence Brief represented in the Product & software section.
 - Keep this section described as deployed rather than planned.
 
 Concept: an AI-assisted research intelligence workflow for daily news curation and weekly public digests.

@@ -256,25 +256,6 @@ h3 {
   font-size: 0.9rem;
 }
 
-.portrait-brief-link {
-  display: flex;
-  width: min(100%, 320px);
-  min-height: 48px;
-  align-items: center;
-  justify-content: center;
-  margin: 28px auto 0;
-  padding: 12px 18px;
-  background: var(--accent);
-  color: #ffffff;
-  font-weight: 700;
-  text-align: center;
-}
-
-.portrait-brief-link:hover {
-  background: var(--accent-dark);
-  color: #ffffff;
-}
-
 .metrics {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
