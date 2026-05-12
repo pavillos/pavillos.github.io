@@ -20,7 +20,7 @@ const translations = {
     metricCongresses: "contribuciones a congresos",
     metricHindex: "índice h en Google Scholar",
     metricYears: "años de experiencia",
-    metricSystems: "sistemas software",
+    metricSystems: "sistemas de software y datos",
     aboutKicker: "Sobre mí",
     aboutTitle: "Ciencia computacional para decisiones biomédicas.",
     aboutBody1: "Soy bioinformático y bioestadístico, doctor en Ciencias Biomédicas y Biotecnológicas. Mi trabajo conecta modelización estadística, Machine Learning, Deep Learning e IA con investigación biomédica para hacer que los datos de alta dimensionalidad sean más útiles, interpretables y reproducibles.",
