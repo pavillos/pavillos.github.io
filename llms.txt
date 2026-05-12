@@ -29,6 +29,20 @@ Bioinformatics & Biostatistics for AI-driven precision medicine and cancer resea
 - CNIO: Spanish National Cancer Research Center
 - CIBERONC: Centro de Investigación Biomédica en Red Cáncer
 
+## Software and data systems
+
+Current portfolio count: 9 systems across public products, private scientific production systems, bioinformatics pipelines, package contributions and in-development AI-oriented biomedical software.
+
+- PDACMOC
+- PDAConsensus
+- PVB Intelligence Brief
+- Virome bioinformatics pipeline
+- iDESC package improvements
+- ORACLE
+- LORE-AI
+- LaTeX Documents system
+- Quarto Slides system
+
 ## Services and collaboration areas
 
 - Bioinformatics and multiomics analysis

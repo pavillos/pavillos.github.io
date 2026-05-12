@@ -37,6 +37,17 @@
     "Reproducible research",
     "Clinically oriented data products"
   ],
+  "softwareAndDataSystems": [
+    "PDACMOC",
+    "PDAConsensus",
+    "PVB Intelligence Brief",
+    "Virome bioinformatics pipeline",
+    "iDESC package improvements",
+    "ORACLE",
+    "LORE-AI",
+    "LaTeX Documents system",
+    "Quarto Slides system"
+  ],
   "services": [
     "Bioinformatics and multiomics analysis",
     "Biostatistics, survival analysis and Bayesian modelling",

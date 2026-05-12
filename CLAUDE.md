@@ -119,6 +119,30 @@ Rule:
 
 Example: if 7 completed years have passed and it is after the anniversary, show `7+`.
 
+### Software and data systems
+
+Source: manually maintained portfolio count.
+
+Current count is:
+
+```text
+9
+```
+
+Counted systems:
+
+- PDACMOC
+- PDAConsensus
+- PVB Intelligence Brief
+- Virome bioinformatics pipeline
+- iDESC package improvements
+- ORACLE
+- LORE-AI
+- LaTeX Documents system
+- Quarto Slides system
+
+Use the exact number, not a `+` bucket. This metric includes public products, private scientific production systems, bioinformatics pipelines, package contributions, and in-development software systems.
+
 ### PubMed records
 
 Source: PubMed E-utilities API.
