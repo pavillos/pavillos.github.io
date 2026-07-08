@@ -50,6 +50,7 @@ Current portfolio count: 9 systems across public products, private scientific pr
 - AI, Machine Learning and Deep Learning methods for biomedical datasets
 - Microbiome, virome and spatial transcriptomics analysis
 - Reproducible reports, code, manuscript-ready outputs and clinical-facing research software
+- Knowledge transfer into patents and intellectual property
 
 ## Canonical resources
 
