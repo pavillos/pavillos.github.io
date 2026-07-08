@@ -89,6 +89,7 @@ const translations = {
     service3: "Métodos de IA y Machine Learning para datos biomédicos",
     service4: "Microbioma, viroma y transcriptómica espacial",
     service5: "Informes reproducibles, código y resultados listos para manuscrito",
+    service6: "Transferencia del conocimiento a patentes y propiedad intelectual",
     contactKicker: "Contacto",
     contactTitle: "Abierto a colaboraciones, consultoría y conversaciones de I+D traslacional."
   }
