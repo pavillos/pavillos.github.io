@@ -54,7 +54,7 @@ A GitHub Actions workflow deploys the site.
 Keep the hero positioning as:
 
 ```text
-Bioinformatics & Biostatistics | Artificial Intelligence | multiomics | precision medicine | cancer research
+Artificial Intelligence | Bioinformatics & Biostatistics | multiomics | precision medicine | cancer research
 ```
 
 Use `multiomics`, not `multi-omics`.
@@ -126,7 +126,7 @@ Source: manually maintained portfolio count.
 Current count is:
 
 ```text
-9
+11
 ```
 
 Counted systems:
@@ -140,6 +140,8 @@ Counted systems:
 - LORE-AI
 - LaTeX Documents system
 - Quarto Slides system
+- PANCAID Sample Tracker
+- CV & profile sync system (pvb-cv-system)
 
 Use the exact number, not a `+` bucket. This metric includes public products, private scientific production systems, bioinformatics pipelines, package contributions, and in-development software systems.
 
