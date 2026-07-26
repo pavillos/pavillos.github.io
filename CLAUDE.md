@@ -220,6 +220,16 @@ Avoid adding heavy new sections to the top navigation unless the content is real
 
 Do not justify paragraphs on tablet or mobile. Justification creates uneven word spacing. Current CSS should leave mobile/tablet paragraphs left-aligned.
 
+## Copyright Notice
+
+The footer reads `© Pablo Villoslada-Blanco` — **no year, no year range**. Do not add one, and remove it if it reappears.
+
+The year carries no legal weight: protection is automatic under the Berne Convention, and the `© year name` form is a pre-1989 US formality. What it does carry is a maintenance cost — a hardcoded year goes stale every January, and a dated footer is the strongest visual cue that a site is abandoned. This site is static HTML, so nothing refreshes the year on its own.
+
+The name is always the full hyphenated form, **Pablo Villoslada-Blanco**. The email, the `pvilloslada.com` domain and the `PVB` initials all drop the second surname, so do not infer it from them.
+
+Same convention applies in `pvb-intelligence-brief` and `sample-tracker`.
+
 ## PVB Intelligence Brief
 
 `brief/index.html` is a branded redirect to the deployed product/workflow:
